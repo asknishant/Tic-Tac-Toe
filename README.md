@@ -393,16 +393,16 @@ classDiagram
 ### Screenshots
 <tr>
     <td>
-       ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.41.22 PM?raw=true "1")
+      <img width="883" alt="s1" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/ac113b6b-91ee-439c-a9f2-1e3433d1827d">
     </td>
     <td>
-       ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.41.39 PM.png?raw=true "2")
+      <img width="361" alt="s2" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/955f8a35-c7ef-45a2-b009-8e38547a2891">
     </td>
     <h3>With Human</h3>
     <td>
-      ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.49.36 PM.png?raw=true "3")
+       <img width="531" alt="s3" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/1c1dff77-055e-4ccb-84b2-cdd2f42e9693">
     </td>
     <td>
-       ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.49.44 PM.png?raw=true "4")
+       <img width="765" alt="s4" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/6cc19454-c9b4-4550-a98f-3d5513cb40d1">
     </td>
 </tr>
