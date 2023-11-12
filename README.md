@@ -393,16 +393,16 @@ classDiagram
 ### Screenshots
 <tr>
     <td>
-        <img src="screenshots/Screenshot 2023-11-12 at 2.41.22 PM.png">
+       ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.41.22 PM?raw=true "1")
     </td>
     <td>
-        <img src="screenshots/Screenshot 2023-11-12 at 2.41.39 PM.png">
+       ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.41.39 PM.png?raw=true "2")
     </td>
     <h3>With Human</h3>
     <td>
-        <img src="screenshots/Screenshot 2023-11-12 at 2.49.36 PM.png">
+      ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.49.36 PM.png?raw=true "3")
     </td>
     <td>
-        <img src="screenshots/Screenshot 2023-11-12 at 2.49.44 PM.png">
+       ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.49.44 PM.png?raw=true "4")
     </td>
 </tr>
