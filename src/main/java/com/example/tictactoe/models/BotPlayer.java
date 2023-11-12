@@ -1,7 +1,6 @@
 package com.example.tictactoe.models;
 
 import com.example.tictactoe.strategies.playing.PlayingStrategy;
-import lombok.Builder;
 import lombok.experimental.SuperBuilder;
 
 @SuperBuilder // if we use @Builder then we will not be able to use symbol() as symbol attribute is present in the Parent of BotPlayer.
@@ -19,6 +18,8 @@ public class BotPlayer extends Player {
     @Override
     public BoardCell makeMove(Board board) {
         // now here goes the strategy pattern
-        return playingStrategy.makeMove(board);
+        BoardCell boardCell = playingStrategy.makeMove(board);
+        boardCell.setSymbol(getSymbol());
+        return boardCell;
     }
 }
