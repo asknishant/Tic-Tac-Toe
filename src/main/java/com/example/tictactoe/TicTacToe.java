@@ -10,8 +10,13 @@ public class TicTacToe {
     public static void main(String[] args) {
         // Ask user for input -> name, email and symbol
         HumanPlayer humanPlayer = getUserInput();
+        // Ask whether he wants to play with a human or a bot
+        System.out.println("Choose opponent human/bot : H/B");
+        Scanner scanner = new Scanner(System.in);
+        String opponent = scanner.nextLine();
+
         // Create a game
-        Game game = createGame(humanPlayer);
+        Game game = createGame(humanPlayer, opponent);
         // Start a game
         game.start();
         // Iteratively call makeMove() untill game is WON or DRAWN
@@ -28,21 +33,24 @@ public class TicTacToe {
         }
     }
 
-    private static Game createGame(HumanPlayer humanPlayer) {
+    private static Game createGame(HumanPlayer humanPlayer, String opponent) {
+
         return Game.builder()
                 .withSize(BOARD_SIZE)
                 .withPlayer(humanPlayer)
                 .withPlayer(
-                        BotPlayer.builder()
-                                .symbol(decideBotSymbol(humanPlayer.getSymbol()))
+                        opponent.equals("B") ?
+                                BotPlayer.builder()
+                                .symbol(decideOpponentSymbol(humanPlayer.getSymbol()))
                                 .level(GameLevel.EASY)
                                 .playingStrategy(new RandomPlayingStrategy())
-                                .build()
+                                .build() :
+                                getUserInput()
                 )
                 .build();
     }
 
-    private static Symbol decideBotSymbol(Symbol symbol) {
+    private static Symbol decideOpponentSymbol(Symbol symbol) {
         if(symbol == Symbol.O) return Symbol.X;
         return Symbol.O;
     }
