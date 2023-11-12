@@ -393,16 +393,16 @@ classDiagram
 ### Screenshots
 <tr>
     <td>
-       ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.41.22 PM?raw=true "1")
+       ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.41.22 PM?raw=true "1")
     </td>
     <td>
-       ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.41.39 PM.png?raw=true "2")
+       ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.41.39 PM.png?raw=true "2")
     </td>
     <h3>With Human</h3>
     <td>
-      ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.49.36 PM.png?raw=true "3")
+      ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.49.36 PM.png?raw=true "3")
     </td>
     <td>
-       ![Alt text](/screenshots/Screenshot 2023-11-12 at 2.49.44 PM.png?raw=true "4")
+       ![Alt text](https://raw.github.com/asknishant/Tic-Tac-Toe/master/screenshots/Screenshot 2023-11-12 at 2.49.44 PM.png?raw=true "4")
     </td>
 </tr>
