@@ -400,9 +400,9 @@ classDiagram
     </td>
     <h3>With Human</h3>
     <td>
-       <img width="531" alt="s3" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/1c1dff77-055e-4ccb-84b2-cdd2f42e9693">
+       <img width="876" alt="s3" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/47680422-179e-462a-87ae-6a7bf871fdb1">
     </td>
     <td>
-       <img width="765" alt="s4" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/6cc19454-c9b4-4550-a98f-3d5513cb40d1">
+       <img width="871" alt="s4" src="https://github.com/asknishant/Tic-Tac-Toe/assets/51340544/c8523716-ae56-4802-a797-2eed8d00eeaa">
     </td>
 </tr>
